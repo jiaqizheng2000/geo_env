@@ -1,3 +1,3 @@
 # geo_env
 
-# First attempt to edit README.md
+# Python scripts for GeoScience
