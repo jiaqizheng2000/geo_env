@@ -80,8 +80,9 @@ def visualize_temperature_difference_for_scenario(average_tem_period_1,average_t
 
     # Display the Plot
     plt.title('Average Air Temperature between 1850-1900 and 2071-2100(%s)' % scenario)
-    plt.show()
     plt.savefig("assignment_2/Average Air Temperature between 1850-1900 and 2071-2100(%s).png" % scenario)
+    plt.show()
+
 
 # Compute and visualize the temperature differences between 2071–2100 and 1850–1900 for ssp119.
 visualize_temperature_difference_for_scenario(average_tem_1850_1900_map,average_tem_2071_2100_map_ssp119,"ssp119",longitudes,latitudes)
