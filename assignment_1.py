@@ -20,10 +20,9 @@ pdb.set_trace()
 dset.close()
 
 # visualize the data
-plt.imshow(DEM)
+plt.imshow(DEM,origin='lower')
 cbar = plt.colorbar()
 cbar.set_label("Elevation (m asl)")
-# plt.show()
-
 # save image into png
-plt.savefig("assignment_1.png",dpi=300)
+plt.savefig("assignment_1/assignment_1.png",dpi=300)
+plt.show()
